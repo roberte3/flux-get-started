@@ -60,6 +60,8 @@ spec:
           value: "#34577c"
         - name: PODINFO_UI_MESSAGE
           value: "Hello World"
+        - name: PODINFO_ERROR_MESSAGE
+          value: "DANGER WIL ROBINSON" 
         livenessProbe:
           httpGet:
             path: /healthz
